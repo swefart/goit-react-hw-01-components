@@ -1,6 +1,4 @@
 import { styled } from "styled-components";
-import { getRandomHexColor } from "../RandomColor";
-
 
 export const StatEl = styled.li`
     display: flex;

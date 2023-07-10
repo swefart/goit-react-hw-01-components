@@ -22,7 +22,7 @@ export const Status = styled.span`
  width:15px;
  height:15px;
  border-radius:50%;
- background-color: ${(props) => {return props.isonline == "true" ? "green" : "red" }};
+ background-color: ${(props) => {return props.isonline === "true" ? "green" : "red" }};
 `
 
 export const Name = styled.p`
